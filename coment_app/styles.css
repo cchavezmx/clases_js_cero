@@ -1,0 +1,66 @@
+.form_comentarios{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;    
+
+}
+
+.form_comentarios button {
+    width: 100px;    
+}
+
+.form_comentarios textarea {
+    width: 100%;
+}
+
+#contendor_comentarios {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 4px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#contendor_comentarios div{
+    position: relative;
+    min-height:  40px;
+    max-width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contendor_comentarios img {
+    height: 40px;
+    width: 40px;
+    border-radius: 999px;
+}
+
+#contendor_comentarios span {
+    position: absolute;    
+    top: 0;
+    right: 0;
+    font-size: 10px;
+    padding: 4px;
+    color: gray;
+    
+}
+
+.delete_button {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    border: transparent;    
+    cursor: pointer;
+}
+
+.delete_button:hover{
+    opacity: 0.5;
+}
